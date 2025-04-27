@@ -9,3 +9,15 @@ val Pink80 = Color(0xFFEFB8C8)
 val Purple40 = Color(0xFF6650a4)
 val PurpleGrey40 = Color(0xFF625b71)
 val Pink40 = Color(0xFF7D5260)
+
+// Цвета для градиента фона WelcomeScreen
+val WelcomeScreenBgStart = Color(0xFFE6F0FA) // Мягкий голубой
+val WelcomeScreenBgEnd = Color(0xFFFFF3E0) // Теплый кремовый
+
+// Цвет текста
+val TextColorWelcomeScreen = Color(0xFF1A2A44) // Темный серо-синий
+
+// Акцентный цвет (для кнопок или других элементов в будущем)
+val AccentColor = Color(0xFF26A69A) // Бирюзовый
+
+val TextColor = Color(0xFF1A2A44)
