@@ -19,3 +19,5 @@ val TextColorWelcomeScreen = Color(0xFF1A2A44) // Темный серо-сини
 
 // Акцентный цвет (для кнопок или других элементов в будущем)
 val AccentColor = Color(0xFF26A69A) // Бирюзовый
+
+val TextColor = Color(0xFF1A2A44)
