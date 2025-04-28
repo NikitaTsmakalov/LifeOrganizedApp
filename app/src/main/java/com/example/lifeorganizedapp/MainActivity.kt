@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.example.lifeorganizedapp.ui.screens.AddTaskScreen
 import com.example.lifeorganizedapp.ui.screens.FirstLaunchManager
 import com.example.lifeorganizedapp.ui.screens.MainScreen
 import com.example.lifeorganizedapp.ui.screens.WelcomeScreen
@@ -50,6 +51,9 @@ class MainActivity : ComponentActivity() {
                     }
                     composable("general_settings") {
                         GeneralSettingsScreen()
+                    }
+                    composable("add_task") {
+                        AddTaskScreen(navController = navController)
                     }
                 }
             }
